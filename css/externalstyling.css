@@ -1,0 +1,388 @@
+*{
+		margin: 0px;
+		font-family: 'Press Start 2p';
+		text-decoration: none;
+}
+
+body{
+		height: 700px;
+}
+
+
+#metalman{
+		background-color: rgb(220,40,75);
+}
+
+#metalmanheader{
+		display: flex;
+		height: 100%;
+		height: 250px;
+		background-color: black;
+}
+
+#megamanlogo{
+		height: 250px;
+		width: 25%;
+}
+
+nav{
+		height: 50px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: yellow;
+}
+
+nav a{
+		text-decoration: none;
+}
+
+#bossname{
+		height: 250px;
+		width: 75%;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		font-size: 40px;
+		color: white;
+}
+
+main{
+		height: 850px;
+		width: 100%;
+}
+
+#active{
+		font-size: 24px;
+		color: white;
+}
+
+#bossselect{
+		background-color: #0071EF;
+}
+
+#bossselectheader{
+		background-color: #0071EF;
+		height: 50px;
+		width: 100%;	
+		position: relative;
+		top: 30px;
+		
+}
+
+#tophalfheader, #bottomhalfheader{
+		height: 4px;
+		width: 100%;
+		border: solid 2.65px white;
+}
+
+#tophalfheader{
+		border-top: solid 3.25px white;
+}
+
+#bottomhalfheader{
+		border-bottom: solid 3.25px white;
+}
+
+#textcontentheader{
+		height: 24px;
+		width: 33.3%;
+		position: absolute;
+		top: 0px;
+		left: 33.3%;
+		z-index: 1;
+		font-size: 24px;
+		color: white;
+		background-color: #0071EF;
+		justify-content: center;
+		display: flex;
+}
+
+#bossselectfirstrow{
+		height: 40px;
+		width: 100%;
+		background-color: #0071EF;
+		position: relative;
+		top: 60px;
+}
+
+#skinny, #thick{
+		width: 100%;
+		background-color: #00EBDE;
+		margin-top: 4px;
+		margin-bottom: 4px;
+}
+
+#skinny{
+		height: 2.75px;
+		margin-top: 2.5px;
+		margin-bottom: 2.5px;
+}
+
+#thick{
+		height: 24px;
+}
+
+#bubblemansquare1{
+		height: 180px;
+		width: 180px;
+		background-color: white;
+		border: solid 4px black;
+		position: absolute;
+		top: -40px;
+		left: 26.5%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+}
+
+#bubblemansquare2{
+		height: 170px;
+		width: 170px;
+		background-color: cyan;
+		border: solid 2px black;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+}
+
+#bubblemansquare3{
+		height: 160px;
+		width: 155px;
+		background-color: cyan;
+		border: solid 3px white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+		
+#headshotholder{
+		height: 145px;
+		width: 145px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+#bubblemanheadshot{
+		height: 100%;
+		width: 100%;
+}
+
+#blackcornersquare1{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: black;
+}
+
+#blackcornersquare2{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background-color: black;
+}
+
+#blackcornersquare3{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background-color: black;
+}
+
+#blackcornersquare4{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		background-color: black;
+}
+
+#names1{
+		width: 100%;
+		display: flex;
+		margin-top: 100px;
+		align-items: center;
+		font-family: 'Press Start 2p';
+		color: white;
+		font-size: 30px;
+		
+}
+
+#names2{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		font-family: 'Press Start 2p';
+		color: white;
+		font-size: 30px;
+		
+}
+
+
+#bossselectseccondrow{
+		margin-top: 225px;
+		height: 40px;
+		width: 100%;
+		background-color: #0071EF;
+		position: relative;
+		top: 60px;
+		
+}
+
+#bossselectthirdtrow{
+		height: 40px;
+		width: 100%;
+		background-color: #0071EF;
+		position: relative;
+		top: 60px;
+}
+
+#skinny, #thick{
+		width: 100%;
+		background-color: #00EBDE;
+		margin-top: 4px;
+		margin-bottom: 4px;
+}
+
+#skinny{
+		height: 2.75px;
+		margin-top: 2.5px;
+		margin-bottom: 2.5px;
+}
+
+#thick{
+		height: 24px;
+}
+
+#willycornersquare1{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background-color: white;
+}
+
+#willycornersquare2{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background-color: white;
+}
+
+#willycornersquare3{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background-color: white;
+}
+
+#willycornersquare4{
+		height: 18px;
+		width: 18px;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		background-color: white;
+}
+
+#bossselectheader1{
+		margin-top: 225px;
+		background-color: #0071EF;
+		height: 50px;
+		width: 100%;	
+		position: relative;
+		top: 30px;
+		
+}
+
+#tophalfheader1, #bottomhalfheader1{
+		height: 4px;
+		width: 100%;
+		border: solid 2.65px white;
+}
+
+#mainstuffmegaman{
+		width: 100%;
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+#textstuffmetalman{
+		height: 200px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+#footer-container{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: yellow;
+				border-radius: 50px;
+				padding: 25px;
+				margin-top: 40px;
+}
+
+#footer-left h2{
+				margin-bottom: 15px;
+				color: #298BC8;
+}
+
+.social-icons{
+				display: flex;
+}
+
+.social-icons img{
+				height: 80px;
+				transition: 0.5s;
+}
+
+.social-icons img:hover{
+				transform: scale(1.15);
+}
+
+#bubbleman{
+		background-color: green;
+}
+
+#airman{
+		background-color: blue;
+}
+
+#quickman{
+		background-color: darkorange;
+}
+
+#woodman{
+	background-color: brown;
+}
+
+#heatman{
+		background-color:  darkorange;
+}
+
+#flashman{
+		background-color: blue;
+}
+
+#crashman{
+		background-color: red;
+}
